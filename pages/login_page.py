@@ -13,11 +13,9 @@ class LoginPage(BasePage):
         assert True
 
     def should_be_login_form(self):
-        assert self.browser.find_element(*MainPageLocators.LOGIN_FORM), 'Login form element not found
-'
+        assert self.browser.find_element(*MainPageLocators.LOGIN_FORM), 'Login form element not found'
         assert True
 
     def should_be_register_form(self):
-        assert self.browser.find_element(*MainPageLocators.REGISTRATION_FORM), 'Registration form element not found
-'
+        assert self.browser.find_element(*MainPageLocators.REGISTRATION_FORM), 'Registration form element not found'
         assert True
